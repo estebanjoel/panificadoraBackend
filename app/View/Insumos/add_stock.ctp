@@ -7,7 +7,7 @@
 		<div class="panel-body">
 			<form class="form-horizontal">
 				<?php
-					echo $this->Form->input('stock',array('class'=>'form-control', 'label'=>'Ingrese la cantidad de stock a agregar'));
+					echo $this->Form->input('masStock',array('class'=>'form-control', 'label'=>'Ingrese la cantidad de stock a agregar'));
 				?>
 				<br><div class="center-block"><?php echo $this->Form->end(__('Enviar')); ?></div>
 			</form>

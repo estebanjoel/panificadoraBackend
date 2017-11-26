@@ -129,7 +129,7 @@ class InsumosController extends AppController {
 		$this->Insumo->recursive = 0;
 		$this->paginate['Insumo']['limit']=5;
 		$this->paginate['Insumo']['order']=array('Insumo.id'=>'asc');
-		$this->paginate['Insumo']['conditions'] = array('Insumo.minimo >'=> 'Insumo.stock');
+		$this->paginate['Insumo']['conditions'] = array('Insumo.minimo <'=> 'Insumo.stock');
 		$this->set('insumos', $this->paginate());
 	}
 
@@ -140,17 +140,24 @@ class InsumosController extends AppController {
 			throw new NotFoundException(__('Invalid Insumo'));
 		}
 
+
 		if ($this->request->is(array('post', 'put'))) {
-			if ($this->Insumo->save($this->request->data)) {
-				$this->Session->setFlash('El Insumo ha sido modificado correctamente', 'default',array('class'=>'container alert alert-success text-center'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash('El Insumo no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
-			}
-		} else {
-			$options = array('conditions' => array('Insumo.' . $this->Insumo->primaryKey => $id));
-			$this->request->data = $this->Insumo->find('first', $options);
+			$masStock=$this->request->data['Insumo']['masStock'];
+			$stockActual=$this->Insumo->field('stock');
+			$stockTotal=$stockActual+$masStock;
+			if ($this->Insumo->saveField('stock', $stockTotal)){
+
+   			$this->Session->setFlash('El Stock se ha agregado correctamente correctamente', 'default',array('class'=>'container alert alert-success text-center'));
+		} 
+
+		else {
+			$this->Session->setFlash('El Stock no pudo agregarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
 		}
+		return $this->redirect(array('action' => 'index'));
+		}
+
+
+
 	}
 
 	public function searchJson(){
