@@ -129,7 +129,7 @@ class InsumosController extends AppController {
 		$this->Insumo->recursive = 0;
 		$this->paginate['Insumo']['limit']=5;
 		$this->paginate['Insumo']['order']=array('Insumo.id'=>'asc');
-		$this->paginate['Insumo']['conditions'] = array('Insumo.minimo <'=> 'Insumo.stock');
+		$this->paginate['Insumo']['conditions'] = array('Insumo.minimo > Insumo.stock');
 		$this->set('insumos', $this->paginate());
 	}
 
@@ -198,14 +198,29 @@ class InsumosController extends AppController {
 			}
 
 			$insumos= $this->Insumo->find('all', array('recursive' => -1, 'conditions' => $conditions, 'limit' => 200));
+
 			if(count($insumos) == 1){
 
 				return $this->redirect(array('controller' => 'insumos', 'action' => 'view' ,$insumos[0]['Insumo']['id']));
 			}
 
-			$terms1=array_diff($terms1, array(''));
-			$this->set(compact('insumos','terms1'));
+			elseif(count($insumos)>1){
 
+				$terms1=array_diff($terms1, array(''));
+				$this->set(compact('insumos','terms1'));
+
+			}
+
+			else{
+
+				$this->Session->setFlash('No se ha encontrado el Insumo que buscaba. Intentelo nuevamente.', 'default',array('class'=>'container alert alert-danger text-center'));
+			}
+
+		}
+
+		else{
+
+			$this->Session->setFlash('Ingreso una busqueda vacia. Intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
 		}
 
 		$this->set(compact('search'));
@@ -220,6 +235,7 @@ class InsumosController extends AppController {
 
 			$this->set('ajax',0);
 		}
+
 
 	}
 

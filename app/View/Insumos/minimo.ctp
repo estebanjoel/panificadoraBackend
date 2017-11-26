@@ -37,7 +37,6 @@
 			<thead>
 			<tr>
 					<th><?php echo $this->Paginator->sort('id'); ?></th>
-					<th><?php echo $this->Paginator->sort('estado_id'); ?></th>
 					<th><?php echo $this->Paginator->sort('nombre'); ?></th>
 					<th><?php echo $this->Paginator->sort('stock'); ?></th>
 					<th><?php echo $this->Paginator->sort('minimo'); ?></th>
@@ -50,25 +49,13 @@
 			<?php foreach ($insumos as $insumo): ?>
 			<tr>
 				<td><?php echo h($insumo['Insumo']['id']); ?>&nbsp;</td>
-				<td>
-					<?php echo $this->Html->link($insumo['Estado']['nombre'], array('controller' => 'estados', 'action' => 'view', $insumo['Estado']['id'])); ?>
-				</td>
 				<td><?php echo h($insumo['Insumo']['nombre']); ?>&nbsp;</td>
 				<td><?php echo h($insumo['Insumo']['stock']); ?>&nbsp;</td>
 				<td><?php echo h($insumo['Insumo']['minimo']); ?>&nbsp;</td>
 				<?php  if(($current_user['Role']['tipo'])=='Super Administrador' or ($current_user['Role']['tipo'])=='Encargado de Produccion'): ?>
 
 				<td class="actions">
-					<div class="btn-group">
-					  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					     <span class="glyphicon glyphicon-edit"></span>
-					  </button>
-					  <ul class="dropdown-menu dropdown-menu-right">
-					    <li><?php echo $this->Html->link(__('Ver'), array('action' => 'view', $insumo['Insumo']['id'])); ?></li>
-					    <li><?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $insumo['Insumo']['id'])); ?></li>
-					    <li><?php echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $insumo['Insumo']['id']), array(), __('Estas seguro que queres borrar el usuario # %s?', $insumo['Insumo']['id'])); ?></li>
-					    
-					  </ul>
+					<?php echo $this->Html->link(__(''), array('action' => 'add_stock', $insumo['Insumo']['id']),array('class'=>'btn btn-primary glyphicon glyphicon-plus-sign', 'title'=>'Agregar Stock')); ?>
 				</td>
 			<?php endif; ?>
 			</tr>

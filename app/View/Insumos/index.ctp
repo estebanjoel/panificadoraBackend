@@ -37,7 +37,6 @@
 			<h3 class="panel-title">Insumos</h3>
 		</div>
 		<div class="panel-body">
-		<div class="table-responsive">
 		<table class="table table-hover">
 			<thead>
 			<tr>
@@ -67,7 +66,6 @@
 		<?php endforeach; ?>
 			</tbody>
 			</table>
-		</div>
 		</div>
 		<p class="text-center"><br><?php echo $this->Paginator->counter(array('format' => __('Pagina {:page} de {:pages}, total {:count}')));?>	</p>
 	</div>

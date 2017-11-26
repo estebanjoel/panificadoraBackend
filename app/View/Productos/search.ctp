@@ -14,7 +14,7 @@
 	<div class="row">
 		<?php echo $this->Form->create('Producto', array('type'=>'GET'),array('class'=>'form-inline')); ?>
 		<div class="col-sm-11 col-xs-10">
-			<?php echo $this->Form->input('search',array('label'=>false, 'div'=>false, 'class'=>'form-control','autocomplete'=>'off','value'=>$search)); ?>
+			<?php echo $this->Form->input('search',array('label'=>false, 'div'=>false, 'class'=>'form-control','autocomplete'=>'off','id'=>'searchProducto')); ?>
 		</div>
 		<div class="col-sm-1 col-xs-2">
 			<?php echo $this->Form->button('',array('div'=>false, 'class'=>'btn btn-primary glyphicon glyphicon-search')); ?>
