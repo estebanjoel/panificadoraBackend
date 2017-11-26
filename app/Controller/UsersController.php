@@ -186,9 +186,21 @@ public function logout() {
 				return $this->redirect(array('controller' => 'users', 'action' => 'view' ,$users[0]['User']['id']));
 			}
 
-			$terms1=array_diff($terms1, array(''));
-			$this->set(compact('users','terms1'));
+			elseif(count($users) > 1){
+				$terms1=array_diff($terms1, array(''));
+				$this->set(compact('users','terms1'));
+			}
 
+			else{
+
+				$this->Session->setFlash('No se ha encontrado el Usuario que buscaba. Intentelo nuevamente.', 'default',array('class'=>'container alert alert-danger text-center'));
+			}
+
+		}
+
+		else{
+
+			$this->Session->setFlash('Ingreso una busqueda vacia. Intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
 		}
 
 		$this->set(compact('search'));

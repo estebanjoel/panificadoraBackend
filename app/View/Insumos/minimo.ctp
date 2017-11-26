@@ -13,16 +13,6 @@
              <div class="col-md-6 col-xs-12">
 				<?php echo $this->element('navtabs-insumo-minimo'); ?>
 			</div>	
-              
-				<?php echo $this->Form->create('Insumo', array('type'=>'GET', 'url'=>array('controller'=>'insumos','action'=>'search'))); ?>
-					<div class="col-xs-10 col-md-5">
-					<div class="form-group">	
-					<?php echo $this->Form->input('search',array('label'=>false, 'div'=>false, 'id'=>'searchCliente','class'=>'form-control','autocomplete'=>'off','placeholder'=>'Buscar Cliente...')); ?>
-					</div>
-			</div>
-			<div class="col-md-1 col-xs-2">
-				<?php echo $this->Form->button('',array('div'=>false, 'class'=>'pull-left btn btn-primary glyphicon glyphicon-search')); ?>	
-				</div>
 			</div>
 			<br>
 		 <?php  endif; ?>

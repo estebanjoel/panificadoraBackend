@@ -27,13 +27,27 @@
 
 	<?php if(!empty($users)): ?>
 		
-	<div class="row">
 		<div class="alert alert-info text-center">Se ha encontrado mas de un resultado. Seleccione la opcion que buscaba:</div>
-		<?php foreach($users as $user): ?>
-			<div class="col-md-4 col-xs-4">
-				<?php echo $this->Html->link($user['User']['username'], array('action'=>'view', $user['User']['id']),array('class'=>'center-block btn btn-primary')); ?>
-			</div>
+		<table class="table table-bordered table-hover">
+			<thead>
+			<tr>
+				<th><?php echo ('id'); ?></th>
+				<th><?php echo ('username'); ?></th>
+				<th><?php echo __('Detalle'); ?></th>
+			</tr>
+			<tbody>
+			<?php foreach($users as $user): ?>
+				<td><?php echo h($user['User']['id']); ?>&nbsp;</td>
+				<td ><?php echo h($user['User']['username']); ?>&nbsp;</td>
+				<td>
+					<div class="btn-group">
+						<?php echo $this->Html->link(__(''), array('action' => 'view', $user['User']['id']), array('class'=>'btn btn-primary glyphicon glyphicon-search', 'title'=>'Ver Detalle de Usuario')); ?>
+					</div>
+				</td>
+			</tr>
+			</tbody>
 		<?php endforeach; ?>
+		</table>
 		<br><br><br>
 	</div>
 
@@ -41,8 +55,9 @@
 	<?php else: ?>
 		</div>
 	</div>
-		<div class="alert alert-danger text-center">No se ha encontrado el Usuario que busca</div>
-		<div class="center-block"><?php echo $this->Html->link(__('Volver'), array('action' => 'index'), array('type'=>'button','class'=>'btn btn-primary')); ?></div>
 
 <?php endif ?>
+</div>
+</div>
+	<div class="center-block"><?php echo $this->Html->link(__('Volver'), array('action' => 'index'), array('type'=>'button','class'=>'btn btn-primary')); ?></div>
 </div>
