@@ -15,7 +15,7 @@ class Pedido extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'id';
+	public $displayField = 'fecha';
 
 /**
  * Validation rules

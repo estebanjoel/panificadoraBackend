@@ -1,5 +1,6 @@
 <?php
 App::uses('AppController', 'Controller');
+
 /**
  * PedidosProductos Controller
  *
@@ -13,7 +14,43 @@ class PedidosProductosController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator');
+
+	public $components = array('RequestHandler','Session');
+	public $helpers = array('Html','Form','Time','Js');
+	public $paginate = array(
+
+		'fields'=>array(
+			'PedidosProducto.id',
+			'Pedidos.subestado_id',
+			'PedidosProducto.producto_id',
+			'Sum(PedidosProducto.cantidad) AS total',
+			'Productos.nombre',
+			'Pedidos.fecha'
+			),
+
+		'group'=>array('PedidosProducto.producto_id'),
+		'joins'=>array(
+
+			array(
+					'table'=>'pedidos',
+					'type'=>'left',
+					'fields'=>'pedidos.subestado_id','pedidos.fecha',
+					'conditions'=>array('PedidosProducto.pedido_id = pedidos.id', 'pedidos.subestado_id=1')
+					),
+				
+
+			array(
+					'table'=>'productos',
+					'type'=>'left',
+					'fields'=>'productos.nombre',
+					'conditions'=>array('PedidosProducto.producto_id=productos.id')
+					),
+				),
+
+		'conditions'=>array('pedidos.fecha=CURRENT_DATE-1'),
+
+		);
+
 
 /**
  * index method
@@ -21,8 +58,34 @@ class PedidosProductosController extends AppController {
  * @return void
  */
 	public function index() {
-		$this->PedidosProducto->recursive = 0;
-		$this->set('pedidosProductos', $this->Paginator->paginate());
+
+		 /*$pedidosProduccion= $this->PedidosProducto->find('all',array(
+
+		'fields'=>array(
+			'PedidosProducto.id',
+			'Pedidos.subestado_id',
+			'Pedidos.fecha',
+			'PedidosProducto.producto_id',
+			'Sum(PedidosProducto.cantidad) AS total',
+			),
+
+		'group'=>array('PedidosProducto.producto_id'),
+		'joins'=>array(
+
+			array(
+					'table'=>'pedidos',
+					'type'=>'left',
+					'fields'=>'pedidos.subestado_id','pedidos.fecha',
+					'conditions'=>array('PedidosProducto.pedido_id = pedidos.id', 'pedidos.subestado_id=1','pedidos.fecha=CURRENT_DATE-1')
+					)
+				)
+
+			)
+		);*/
+
+		$this->paginate['pedidosProductos']['limit']=5;
+		$this->set('pedidosProductos', $this->paginate());
+
 	}
 
 /**
@@ -107,4 +170,24 @@ class PedidosProductosController extends AppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+
+	public function isAuthorized($user)
+        { if(isset($user['Role']) && $user['Role']['tipo']==='Empleado de Produccion')
+            {if(in_array($this->action, array('index','add','edit','view','delete','search','searchJson')))
+            	{return true;}
+            else
+            	{if($this->Auth->user('id'))
+            		{$this->Session->setFlash('No tiene acceso','default', array('class'=>'alert alert-danger'));
+            		$this->redirect($this->Auth->redirect());
+
+
+            		}
+
+        }
+
+        }
+        return parent::isAuthorized($user);
+           
+    }
+
 }

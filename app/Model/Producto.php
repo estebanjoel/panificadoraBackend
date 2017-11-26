@@ -102,7 +102,7 @@ class Producto extends AppModel {
 			'associationForeignKey' => 'pedido_id',
 			'unique' => 'keepExisting',
 			'conditions' => '',
-			'fields' => '',
+			'fields' => 'nombre',
 			'order' => '',
 			'limit' => '',
 			'offset' => '',

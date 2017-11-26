@@ -51,6 +51,17 @@ class User extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+
+			'minLenght'=>array(
+				'rule' => array('minLength', 5),
+            	'message' => 'Debe tener entre 5 y 15 caracteres de longitud'
+       		),
+
+       		'maxLenght'=>array(
+				'rule' => array('maxLength', 15),
+            	'message' => 'Debe tener entre 5 y 15 caracteres de longitud'
+       		),
+
 		),
 		'password' => array(
 			'notEmpty' => array(
@@ -61,6 +72,17 @@ class User extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+
+			'minLenght'=>array(
+				'rule' => array('minLength', 8),
+            	'message' => 'Debe tener entre 8 y 25 caracteres de longitud'
+       		),
+
+       		'maxLenght'=>array(
+				'rule' => array('maxLength', 25),
+            	'message' => 'Debe tener entre 8 y 25 caracteres de longitud'
+       		),
+
 		),
 		'nombre' => array(
 			'notEmpty' => array(
@@ -91,6 +113,16 @@ class User extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+
+			'numeric'=>array(
+				'rule'=>array('numeric'),
+				'message' => 'Solo numeros',
+				),
+
+			'minLenght'=>array(
+				'rule' => array('minLength', '8'),
+            	'message' => 'Mínimo ocho caracteres de longitud'
+       		),
 		),
 		'telefono' => array(
 			'notEmpty' => array(
@@ -101,6 +133,11 @@ class User extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+
+			'numeric'=>array(
+					'rule'=>array('numeric'),
+					'message' => 'Solo numeros',
+				),
 		),
 		'email' => array(
 			'email' => array(

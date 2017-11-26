@@ -29,20 +29,14 @@
                 <li><?php   echo $this->Html->link('Clientes',array('controller'=>'Clientes','action'=>'index'));?></li>
         				<?php  endif; ?>
                 
-                <?php  if(($current_user['Role']['tipo'])=='Super Administrador' or ($current_user['Role']['tipo'])=='Empleado de Produccion' or ($current_user['Role']['tipo'])=='Empleado de Ventas' or ($current_user['Role']['tipo'])=='Gerente de Produccion'): ?>
-                <li class="dropdown">
-          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pedidos<span class="caret"></span></a>
-          			<ul class="dropdown-menu">
             			
                    <?php  if(($current_user['Role']['tipo'])=='Super Administrador' or ($current_user['Role']['tipo'])=='Empleado de Ventas' or ($current_user['Role']['tipo'])=='Gerente de Produccion'): ?> 
-                  <li><?php   echo $this->Html->link('Clientes',array('controller'=>'Pedidos','action'=>'index'));?></li>
+                  <li><?php   echo $this->Html->link('Pedidos de Clientes',array('controller'=>'Pedidos','action'=>'index'));?></li>
             		    <?php  endif; ?> 
 
                     <?php  if(($current_user['Role']['tipo'])=='Super Administrador' or ($current_user['Role']['tipo'])=='Empleado de Produccion'): ?> 
-                   	<li><?php   echo $this->Html->link('Produccion',array('controller'=>'Epedidos','action'=>'index'));?></li>
+                   	<li><?php   echo $this->Html->link('Pedidos de Produccion',array('controller'=>'PedidosProductos','action'=>'index'));?></li>
           			     <?php  endif; ?> 
-                </ul></li>
-                <?php  endif; ?>
 
                <?php  if(($current_user['Role']['tipo'])=='Super Administrador' or ($current_user['Role']['tipo'])=='Encargado de Produccion'): ?>              
         			<li><?php   echo $this->Html->link('Productos',array('controller'=>'Productos','action'=>'index'));?></li>
