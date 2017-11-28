@@ -35139,3 +35139,2466 @@ Request URL: /panificadoraOld/css/mio.css
 Stack Trace:
 #0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-11-27 00:51:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-27 00:51:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:17:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:18:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:18:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 22:28:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:15:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:15:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:15:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:20:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:20:37 Error: Fatal Error (1): Call to undefined method View::elements() in [C:\xampp\htdocs\panificadoraOld\app\View\PedidosProductos\index.ctp, line 2]
+2017-11-28 23:20:37 Error: [FatalErrorException] Call to undefined method View::elements()
+Request URL: /panificadoraOld/PedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-28 23:20:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:21:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:22:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:23:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:23:05 Error: [MissingActionException] Action PedidosProductosController::enProceso() could not be found.
+Exception Attributes: array (
+  'controller' => 'PedidosProductosController',
+  'action' => 'enProceso',
+)
+Request URL: /panificadoraOld/pedidosProductos/enProceso
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 23:23:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:24:07 Error: Fatal Error (1): Call to undefined method PedidosProductosController::paginate_noRealizados() in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 87]
+2017-11-28 23:24:07 Error: [FatalErrorException] Call to undefined method PedidosProductosController::paginate_noRealizados()
+Request URL: /panificadoraOld/PedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 87, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 87, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-28 23:24:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:24:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:24:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:27:15 Error: [MissingViewException] View file "C:\xampp\htdocs\panificadoraOld\app\View\PedidosProductos\en_proceso.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\panificadoraOld\\app\\View\\PedidosProductos\\en_proceso.ctp',
+)
+Request URL: /panificadoraOld/pedidosProductos/enProceso
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-28 23:27:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:27:42 Error: [MissingViewException] View file "C:\xampp\htdocs\panificadoraOld\app\View\PedidosProductos\en_proceso.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\panificadoraOld\\app\\View\\PedidosProductos\\en_proceso.ctp',
+)
+Request URL: /panificadoraOld/pedidosProductos/enProceso
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-28 23:27:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:27:43 Error: [MissingViewException] View file "C:\xampp\htdocs\panificadoraOld\app\View\PedidosProductos\en_proceso.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\panificadoraOld\\app\\View\\PedidosProductos\\en_proceso.ctp',
+)
+Request URL: /panificadoraOld/pedidosProductos/enProceso
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-28 23:27:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:27:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:28:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:28:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:28:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:29:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:30:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PedidosProducto.subestado_id' in 'where clause'
+Request URL: /panificadoraOld/pedidosProductos/enProceso
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedidos...', Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedidos...', Array, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedidos...', false)
+#4 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2947): DboSource->read(Object(PedidosProducto), Array)
+#5 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php(125): Model->find('all', Array)
+#7 [internal function]: PedidosProductosController->enProceso()
+#8 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#9 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#11 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-11-28 23:30:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:30:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:31:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:31:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:31:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:31:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:32:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:32:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:32:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:32:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:32:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:32:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:33:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:33:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:34:27 Error: [MissingActionException] Action PedidosProductosController::realizado() could not be found.
+Exception Attributes: array (
+  'controller' => 'PedidosProductosController',
+  'action' => 'realizado',
+)
+Request URL: /panificadoraOld/pedidosProductos/realizado
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 23:34:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:35:17 Error: [MissingActionException] Action PedidosProductosController::realizado() could not be found.
+Exception Attributes: array (
+  'controller' => 'PedidosProductosController',
+  'action' => 'realizado',
+)
+Request URL: /panificadoraOld/pedidosProductos/realizado
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#2 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-11-28 23:35:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:35:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:35:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:35:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:35:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:35:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:35:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:35:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:36:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:36:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:41:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:42:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:43:42 Error: Fatal Error (4): syntax error, unexpected ''Subestado'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\panificadoraOld\app\Model\PedidosProducto.php, line 79]
+2017-11-28 23:43:42 Error: [FatalErrorException] syntax error, unexpected ''Subestado'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /panificadoraOld/pedidosProductos/edit/7
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 79, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 79, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-28 23:43:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:43:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:44:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:45:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:46:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PedidosProducto.estado_pedido' in 'on clause'
+Request URL: /panificadoraOld/pedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedidos...', Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedidos...', Array, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedidos...', false)
+#4 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2947): DboSource->read(Object(PedidosProducto), Array)
+#5 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php(87): Controller->paginate()
+#9 [internal function]: PedidosProductosController->index()
+#10 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#11 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#13 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-11-28 23:46:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:46:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PedidosProducto.estado_pedido' in 'on clause'
+Request URL: /panificadoraOld/pedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedidos...', Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedidos...', Array, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedidos...', false)
+#4 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2947): DboSource->read(Object(PedidosProducto), Array)
+#5 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php(87): Controller->paginate()
+#9 [internal function]: PedidosProductosController->index()
+#10 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#11 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#13 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-11-28 23:46:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:46:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PedidosProducto.estado_pedido' in 'on clause'
+Request URL: /panificadoraOld/pedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedidos...', Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedidos...', Array, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedidos...', false)
+#4 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2947): DboSource->read(Object(PedidosProducto), Array)
+#5 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php(87): Controller->paginate()
+#9 [internal function]: PedidosProductosController->index()
+#10 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#11 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#13 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-11-28 23:46:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:46:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PedidosProducto.estado_pedido' in 'on clause'
+Request URL: /panificadoraOld/pedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedidos...', Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedidos...', Array, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedidos...', false)
+#4 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2947): DboSource->read(Object(PedidosProducto), Array)
+#5 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php(87): Controller->paginate()
+#9 [internal function]: PedidosProductosController->index()
+#10 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#11 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#13 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-11-28 23:46:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:48:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PedidosProducto.estado_pedido' in 'on clause'
+Request URL: /panificadoraOld/pedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedidos...', Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedidos...', Array, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedidos...', false)
+#4 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2947): DboSource->read(Object(PedidosProducto), Array)
+#5 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(1080): PaginatorComponent->paginate(NULL, Array, Array)
+#8 C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php(88): Controller->paginate()
+#9 [internal function]: PedidosProductosController->index()
+#10 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#11 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#13 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-11-28 23:48:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:48:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:49:02 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\panificadoraOld\app\Model\PedidosProducto.php, line 64]
+2017-11-28 23:49:02 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /panificadoraOld/pedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-28 23:49:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:49:15 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\panificadoraOld\app\Model\PedidosProducto.php, line 64]
+2017-11-28 23:49:15 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /panificadoraOld/pedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-28 23:49:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:49:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:50:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:51:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:51:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:51:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:51:53 Error: Fatal Error (4): syntax error, unexpected ''PedidosProducto'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\panificadoraOld\app\Model\Subestado.php, line 91]
+2017-11-28 23:51:53 Error: [FatalErrorException] syntax error, unexpected ''PedidosProducto'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /panificadoraOld/Pedidos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 91)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 91, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 91, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-28 23:51:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:52:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:52:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:52:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:52:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:52:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:52:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:52:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:52:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:53:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:53:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:53:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:53:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:54:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:54:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:54:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:54:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:56:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:56:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:56:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:56:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:56:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:56:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:58:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:58:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:58:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:58:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:58:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:58:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:58:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:59:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:59:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-28 23:59:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:00:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:00:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:00:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:00:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:02:25 Error: Fatal Error (1): Function name must be a string in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 63]
+2017-11-29 00:02:25 Error: [FatalErrorException] Function name must be a string
+Request URL: /panificadoraOld/PedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\\xampp\\htdocs...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\\xampp\\htdocs...', 63, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\\xampp\\htdocs...', 63, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:02:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:02:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:02:40 Error: Fatal Error (1): Function name must be a string in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 63]
+2017-11-29 00:02:40 Error: [FatalErrorException] Function name must be a string
+Request URL: /panificadoraOld/PedidosProductos
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', 'C:\\xampp\\htdocs...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', 'C:\\xampp\\htdocs...', 63, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Function name m...', 'C:\\xampp\\htdocs...', 63, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:02:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:03:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:03:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:04:13 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 142]
+2017-11-29 00:04:13 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /panificadoraOld/pedidosProductos/realizados
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 142)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 142, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 142, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:04:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:04:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:04:41 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 106]
+2017-11-29 00:04:41 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /panificadoraOld/pedidosProductos/realizados
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 106, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 106, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:04:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:04:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:04:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:05:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:05:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PedidosProcuto.subestado_id' in 'field list'
+Request URL: /panificadoraOld/pedidosProductos/enProceso
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedidos...', Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedidos...', Array, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedidos...', false)
+#4 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2947): DboSource->read(Object(PedidosProducto), Array)
+#5 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php(103): Model->find('all', Array)
+#7 [internal function]: PedidosProductosController->enProceso()
+#8 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#9 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#11 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-11-29 00:05:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:06:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PedidosProcuto.subestado_id' in 'field list'
+Request URL: /panificadoraOld/pedidosProductos/enProceso
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Pedidos...', Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Pedidos...', Array, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Pedidos...', false)
+#4 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2947): DboSource->read(Object(PedidosProducto), Array)
+#5 C:\xampp\htdocs\panificadoraOld\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php(103): Model->find('all', Array)
+#7 [internal function]: PedidosProductosController->enProceso()
+#8 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#9 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#11 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-11-29 00:06:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:06:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/js/searchPedido.js
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:07:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:09:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:09:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:09:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:09:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:10:51 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 218]
+2017-11-29 00:10:51 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /panificadoraOld/pedidosProductos/edit/11
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 218)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 218, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 218, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:10:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:10:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:12:43 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:12:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:13:12 Error: Fatal Error (1): Cannot use object of type PedidosProducto as array in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 192]
+2017-11-29 00:13:12 Error: [FatalErrorException] Cannot use object of type PedidosProducto as array
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 192)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 192, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 192, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:13:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:13:33 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:13:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:14:08 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:14:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:14:21 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:14:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:14:59 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:14:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:15:06 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:15:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:15:49 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:15:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:15:58 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:15:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:16:01 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:16:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:16:22 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:16:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:17:36 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/pedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:17:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:18:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:18:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:18:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:18:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:19:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:19:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:19:31 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/PedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:19:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:20:23 Error: Fatal Error (4): syntax error, unexpected 'in' (T_STRING), expecting ';' in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 229]
+2017-11-29 00:20:23 Error: [FatalErrorException] syntax error, unexpected 'in' (T_STRING), expecting ';'
+Request URL: /panificadoraOld/PedidosProductos/edit/5
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 229)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 229, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 229, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:20:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:21:21 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/PedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:21:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:21:37 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/PedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:21:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:21:49 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/PedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:21:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:22:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:22:07 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/PedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:22:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:23:46 Error: [NotFoundException] Invalid pedidos producto
+Request URL: /panificadoraOld/PedidosProductos/edit/5
+Stack Trace:
+#0 [internal function]: PedidosProductosController->edit('5')
+#1 C:\xampp\htdocs\panificadoraOld\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PedidosProductosController), Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PedidosProductosController), Object(CakeRequest))
+#4 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-11-29 00:23:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:25:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:25:37 Error: Fatal Error (4): syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$' in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 229]
+2017-11-29 00:25:37 Error: [FatalErrorException] syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$'
+Request URL: /panificadoraOld/PedidosProductos/edit/5
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 229)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 229, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 229, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:25:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:25:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:25:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:26:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:26:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:26:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:26:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:26:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:26:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:31:33 Error: Fatal Error (4): syntax error, unexpected '*' in [C:\xampp\htdocs\panificadoraOld\app\Controller\PedidosProductosController.php, line 252]
+2017-11-29 00:31:33 Error: [FatalErrorException] syntax error, unexpected '*'
+Request URL: /panificadoraOld/pedidosProductos/edit/20
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 252)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 252, Array)
+#2 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 252, Array)
+#3 C:\xampp\htdocs\panificadoraOld\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-11-29 00:31:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-11-29 00:31:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /panificadoraOld/css/mio.css
+Stack Trace:
+#0 C:\xampp\htdocs\panificadoraOld\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

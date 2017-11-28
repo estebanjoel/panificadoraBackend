@@ -50,6 +50,19 @@ class PedidosProducto extends AppModel {
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+
+
+		),
+
+		'subestado_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
 		),
 	);
 
@@ -71,6 +84,14 @@ class PedidosProducto extends AppModel {
 		'Producto' => array(
 			'className' => 'Producto',
 			'foreignKey' => 'producto_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+
+		'Subestado' => array(
+			'className' => 'Subestado',
+			'foreignKey' => 'subestado_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
