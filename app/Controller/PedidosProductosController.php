@@ -25,7 +25,8 @@ class PedidosProductosController extends AppController {
 			'PedidosProducto.producto_id',
 			'Sum(PedidosProducto.cantidad) AS total',
 			'Productos.nombre',
-			'Pedidos.fecha'
+			'Pedidos.fecha',
+			'Pedidos.subestado_id'
 			),
 
 		'group'=>array('PedidosProducto.producto_id'),
@@ -35,7 +36,7 @@ class PedidosProductosController extends AppController {
 					'table'=>'pedidos',
 					'type'=>'left',
 					'fields'=>'pedidos.subestado_id','pedidos.fecha',
-					'conditions'=>array('PedidosProducto.pedido_id = pedidos.id', 'pedidos.subestado_id=1')
+					'conditions'=>array('PedidosProducto.pedido_id = pedidos.id')
 					),
 				
 
@@ -47,7 +48,7 @@ class PedidosProductosController extends AppController {
 					),
 				),
 
-		'conditions'=>array('pedidos.fecha=CURRENT_DATE-1'),
+		'conditions'=>array(/*'pedidos.fecha=CURRENT_DATE-1',*/'PedidosProducto.subestado_id=1'),
 
 		);
 
@@ -59,14 +60,23 @@ class PedidosProductosController extends AppController {
  */
 	public function index() {
 
-		 /*$pedidosProduccion= $this->PedidosProducto->find('all',array(
+		$this->paginate['pedidosProductos']['limit']=5;
+		$this->set('pedidosProductos', $this->paginate());
+
+	}
+
+	public function enProceso(){
+
+		$pedidosProduccion=$this->PedidosProducto->find('all',array(
 
 		'fields'=>array(
 			'PedidosProducto.id',
 			'Pedidos.subestado_id',
-			'Pedidos.fecha',
 			'PedidosProducto.producto_id',
+			'PedidosProducto.subestado_id',
 			'Sum(PedidosProducto.cantidad) AS total',
+			'Productos.nombre',
+			'Pedidos.fecha',
 			),
 
 		'group'=>array('PedidosProducto.producto_id'),
@@ -76,16 +86,64 @@ class PedidosProductosController extends AppController {
 					'table'=>'pedidos',
 					'type'=>'left',
 					'fields'=>'pedidos.subestado_id','pedidos.fecha',
-					'conditions'=>array('PedidosProducto.pedido_id = pedidos.id', 'pedidos.subestado_id=1','pedidos.fecha=CURRENT_DATE-1')
-					)
-				)
+					'conditions'=>array('PedidosProducto.pedido_id = pedidos.id')
+					),
+				
 
-			)
-		);*/
+			array(
+					'table'=>'productos',
+					'type'=>'left',
+					'fields'=>'productos.nombre',
+					'conditions'=>array('PedidosProducto.producto_id=productos.id')
+					),
+				),
 
-		$this->paginate['pedidosProductos']['limit']=5;
-		$this->set('pedidosProductos', $this->paginate());
+		'conditions'=>array(/*'pedidos.fecha=CURRENT_DATE-1', */'PedidosProducto.subestado_id=2'),
 
+		));
+
+		debug($pedidosProduccion);
+		$this->set('pedidosProductos', $pedidosProduccion);
+	}
+
+	public function realizados(){
+
+		$pedidosProduccion=$this->PedidosProducto->find('all',array(
+
+		'fields'=>array(
+			'PedidosProducto.id',
+			'Pedidos.subestado_id',
+			'PedidosProducto.producto_id',
+			'Sum(PedidosProducto.cantidad) AS total',
+			'Productos.nombre',
+			'Pedidos.fecha',
+			'Pedidos.subestado_id'
+			),
+
+		'group'=>array('PedidosProducto.producto_id'),
+		'joins'=>array(
+
+			array(
+					'table'=>'pedidos',
+					'type'=>'left',
+					'fields'=>'pedidos.subestado_id','pedidos.fecha',
+					'conditions'=>array('PedidosProducto.pedido_id = pedidos.id')
+					),
+				
+
+			array(
+					'table'=>'productos',
+					'type'=>'left',
+					'fields'=>'productos.nombre',
+					'conditions'=>array('PedidosProducto.producto_id=productos.id')
+					),
+				),
+
+		'conditions'=>array(/*'pedidos.fecha=CURRENT_DATE-1', */'PedidosProducto.subestado_id=3'),
+
+		));
+
+		$this->set('pedidosProductos', $pedidosProduccion);
 	}
 
 /**
@@ -131,9 +189,53 @@ class PedidosProductosController extends AppController {
  * @return void
  */
 	public function edit($id = null) {
-		if (!$this->PedidosProducto->exists($id)) {
-			throw new NotFoundException(__('Invalid pedidos producto'));
+
+		$pedidosProduccion=$this->PedidosProducto->find('all',array(
+
+		'fields'=>array(
+			'PedidosProducto.id',
+			'Pedidos.subestado_id',
+			'PedidosProducto.producto_id',
+			'Sum(PedidosProducto.cantidad) AS total',
+			'Productos.nombre',
+			'Pedidos.fecha',
+			'Pedidos.subestado_id'
+			),
+
+		'group'=>array('PedidosProducto.producto_id'),
+		'joins'=>array(
+
+			array(
+					'table'=>'pedidos',
+					'type'=>'left',
+					'fields'=>'pedidos.subestado_id','pedidos.fecha',
+					'conditions'=>array('PedidosProducto.pedido_id = pedidos.id')
+					),
+				
+
+			array(
+					'table'=>'productos',
+					'type'=>'left',
+					'fields'=>'productos.nombre',
+					'conditions'=>array('PedidosProducto.producto_id=productos.id')
+					),
+				),
+
+		'conditions'=>array(/*'pedidos.fecha=CURRENT_DATE-1', */),
+
+		));
+
+		for ($pedido=0; $pedido<sizeof($pedidosProduccion);$pedido++){
+
+			if ($pedidosProduccion[$pedido]['PedidosProducto']['producto_id']=$id){
+				break;
+			}
+
+			else{
+				throw new NotFoundException(__('Producto Invalido'));
+			}
 		}
+		
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->PedidosProducto->save($this->request->data)) {
 				$this->Session->setFlash(__('The pedidos producto has been saved.'));
@@ -173,7 +275,7 @@ class PedidosProductosController extends AppController {
 
 	public function isAuthorized($user)
         { if(isset($user['Role']) && $user['Role']['tipo']==='Empleado de Produccion')
-            {if(in_array($this->action, array('index','add','edit','view','delete','search','searchJson')))
+            {if(in_array($this->action, array('index','enProceso','realizados','add','edit','view','delete','search','searchJson')))
             	{return true;}
             else
             	{if($this->Auth->user('id'))
