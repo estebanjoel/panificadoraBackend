@@ -16,6 +16,7 @@
 					<label>Insumos:</label>
 					<ul class="list-group">
 					<?php echo $this->Form->input('Insumo',array('type'=>'select','label'=>false,'class'=>' list-group-item','multiple'=>'checkbox')); ?>
+					
 					</ul>
 				</div>
 				

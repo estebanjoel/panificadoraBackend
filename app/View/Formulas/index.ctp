@@ -51,8 +51,8 @@
 		<?php foreach ($formulas as $formula): ?>
 			<?php if($formula['Estado']['id']==1): ?>
 		<tr>
-			<td><?php echo h($formula['Formula']['id']); ?>&nbsp;</td>
-			<td><?php echo h($formula['Formula']['nombre']); ?>&nbsp;</td>
+			<td><?php echo ($formula['Formula']['id']); ?>&nbsp;</td>
+			<td><?php echo ($formula['Formula']['nombre']); ?>&nbsp;</td>
 			<td class="actions">
 				<div class="btn-group">
 						<?php echo $this->Html->link(__(''), array('action' => 'view', $formula['Formula']['id']), array('class'=>'btn btn-primary glyphicon glyphicon-search', 'title'=>'Ver Detalle de Formula')); ?>
