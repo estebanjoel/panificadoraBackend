@@ -99,7 +99,24 @@ class Insumo extends AppModel {
 			'limit' => '',
 			'offset' => '',
 			'finderQuery' => '',
+		),
+		'Borradore' => array(
+			'className' => 'Borradore',
+			'joinTable' => 'borradores_insumos',
+			'foreignKey' => 'insumo_id',
+			'associationForeignKey' => 'borradore_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
 		)
+
 	);
+
+
+
 
 }

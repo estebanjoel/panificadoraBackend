@@ -1,5 +1,6 @@
 <?php
-App::uses('AppController', 'Controller');
+App::uses('AppController', 'Controller','Borradores');
+//Controller::loadModel('Borradores'); 
 /**
  * Formulas Controller
  *
@@ -84,6 +85,10 @@ class FormulasController extends AppController {
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Formula->save($this->request->data)) {
+				
+				//$Borradore->prueba();
+
+				//$this->Borradore->save($this->request->data);
 				return $this->redirect(array('action' => 'edit_cantidad',$this->Formula->id));
 			} 
 			
@@ -96,6 +101,8 @@ class FormulasController extends AppController {
 		$insumos = $this->Formula->Insumo->find('list');
 		$this->set(compact('estados', 'productos','insumos'));
 	}
+
+
 
 /**
  * delete method

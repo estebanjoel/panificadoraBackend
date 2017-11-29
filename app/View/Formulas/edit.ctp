@@ -1,7 +1,7 @@
 <div class="container">
 	<?php echo $this->element('navtabs-formula-editar'); ?>
 	<?php echo $this->Form->create('Formula'); ?>
-	<div class="panel panel-primary">
+		<div class="panel panel-primary">
 		<div class="panel-heading">
 			<h3 class="panel-title"><?php echo ('Modificar Formula'); ?></h3>
   		</div>
@@ -24,3 +24,4 @@
 		</div>
 	</div>
 </div>
+
