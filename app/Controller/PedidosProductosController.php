@@ -240,6 +240,7 @@ class PedidosProductosController extends AppController {
 		if ($this->request->is(array('post', 'put'))) {
 				
 				$cambio=$this->request->data;
+
 				$flag2=0;
 				$pedidosProductos=$this->PedidosProducto->find('all');
 				for ($indice=0; $indice<sizeof($pedidosProductos);$indice++){
@@ -247,6 +248,17 @@ class PedidosProductosController extends AppController {
 					if ($pedidosProductos[$indice]['Producto']['id']==$id){
 
 						$flag2=1;
+						$original=(int)$pedidosProductos[$indice]['PedidosProducto']['subestado_id'];
+						$nuevo=(int)$cambio['PedidosProducto']['subestado_id'];
+						if ($nuevo<$original){
+
+							$this->Session->setFlash('El Pedido no puede volver al Estado Anterior', 'default',array('class'=>'container alert alert-danger text-center'));
+
+							return $this->redirect(array('action' => 'index'));		
+
+
+						}
+
 						$this->PedidosProducto->updateAll(array('PedidosProducto.subestado_id'=>"'".$cambio['PedidosProducto']['subestado_id']."'"),array('PedidosProducto.producto_id'=>$id));
 					}
 				}
@@ -283,6 +295,11 @@ class PedidosProductosController extends AppController {
 						}
 				}
 
+		if($cambio['PedidosProducto']['subestado_id']='2'){
+
+			
+		}
+
 		if ($flag2==1){
 
 			$this->Session->setFlash('El Estado de Pedido de Produccion ha sido cambiado correctamente', 'default',array('class'=>'container alert alert-success text-center'));
@@ -293,7 +310,7 @@ class PedidosProductosController extends AppController {
 			$this->Session->setFlash('El Estado de Pedido de Produccion no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
 		}
 
-		return $this->redirect(array('action' => 'index'));		
+		return $this->redirect(array('action' => 'index'));		*/
 
 			
 		
