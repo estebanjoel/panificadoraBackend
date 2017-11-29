@@ -18,4 +18,5 @@
 		</form>
 	</div>
 	</div>
+	<?php echo $this->Form->create('FormulasInsumo'); ?>
 </div>
