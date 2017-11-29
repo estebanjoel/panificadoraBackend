@@ -23,7 +23,7 @@
 		</td>
 		<td><?php echo h($pedidosProducto[0]['total']); ?>&nbsp;</td>
 		<td class="actions">
-			<?php echo $this->Html->link(__(''), array('action' => 'edit', $pedidosProducto['PedidosProducto']['id']),array('class'=>'btn btn-primary glyphicon glyphicon-pencil','title'=>'Cambiar Estado de Pedido')); ?>
+			<?php echo $this->Html->link(__(''), array('action' => 'edit', $pedidosProducto['PedidosProducto']['producto_id']),array('class'=>'btn btn-primary glyphicon glyphicon-pencil','title'=>'Cambiar Estado de Pedido')); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>

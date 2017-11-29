@@ -26,7 +26,7 @@ class PedidosProductosController extends AppController {
 			'Sum(PedidosProducto.cantidad) AS total',
 			'Productos.nombre',
 			'Pedidos.fecha',
-			'Pedidos.subestado_id'
+			'PedidosProducto.subestado_id'
 			),
 
 		'group'=>array('PedidosProducto.producto_id'),
@@ -48,7 +48,7 @@ class PedidosProductosController extends AppController {
 					),
 				),
 
-		'conditions'=>array(/*'pedidos.fecha=CURRENT_DATE-1',*/'PedidosProducto.subestado_id=1'),
+		'conditions'=>array(/*'pedidos.fecha=CURRENT_DATE-1',*/'PedidosProducto.subestado_id=1','PedidosProducto.subestado_id=pedidos.subestado_id'),
 
 		);
 
@@ -102,7 +102,6 @@ class PedidosProductosController extends AppController {
 
 		));
 
-		debug($pedidosProduccion);
 		$this->set('pedidosProductos', $pedidosProduccion);
 	}
 
@@ -225,32 +224,88 @@ class PedidosProductosController extends AppController {
 
 		));
 
+		$flag=0;
 		for ($pedido=0; $pedido<sizeof($pedidosProduccion);$pedido++){
 
-			if ($pedidosProduccion[$pedido]['PedidosProducto']['producto_id']=$id){
+			if ($pedidosProduccion[$pedido]['PedidosProducto']['producto_id']==$id){
+				$flag++;
 				break;
 			}
+		}
 
-			else{
-				throw new NotFoundException(__('Producto Invalido'));
-			}
+		if ($flag==0){
+			throw new NotFoundException(__('Producto Invalido'));
 		}
 		
 		if ($this->request->is(array('post', 'put'))) {
-			if ($this->PedidosProducto->save($this->request->data)) {
-				$this->Session->setFlash(__('The pedidos producto has been saved.'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The pedidos producto could not be saved. Please, try again.'));
-			}
+				
+				$cambio=$this->request->data;
+				$flag2=0;
+				$pedidosProductos=$this->PedidosProducto->find('all');
+				for ($indice=0; $indice<sizeof($pedidosProductos);$indice++){
+
+					if ($pedidosProductos[$indice]['Producto']['id']==$id){
+
+						$flag2=1;
+						$this->PedidosProducto->updateAll(array('PedidosProducto.subestado_id'=>"'".$cambio['PedidosProducto']['subestado_id']."'"),array('PedidosProducto.producto_id'=>$id));
+					}
+				}
+
+				$listadoPedidos=[];
+				$pedidosProductosCambiados=$this->PedidosProducto->find('all',array('conditions'=>array('PedidosProducto.producto_id'=>$id)));
+				for ($indice=0;$indice<sizeof($pedidosProductosCambiados);$indice++){
+
+					array_push($listadoPedidos,$this->PedidosProducto->find('all',array('conditions'=>(array('PedidosProducto.pedido_id'=>$pedidosProductosCambiados[$indice]['PedidosProducto']['pedido_id'])))));
+				
+
+				}
+
+
+				for ($lista=0;$lista<sizeof($listadoPedidos);$lista++){
+
+						$subestado=$listadoPedidos[$lista][0]['PedidosProducto']['subestado_id'];
+						$flagLista=0;
+					for ($producto=0;$producto<sizeof($listadoPedidos[$lista]);$producto++){
+
+						
+						if($listadoPedidos[$lista][$producto]['PedidosProducto']['subestado_id']!=$subestado){
+
+						 	$flagLista++;
+						 	break;
+
+						}
+
+					}
+
+					if($flagLista==0){
+
+							$this->PedidosProducto->updateAll(array('Pedido.subestado_id'=>"'".$cambio['PedidosProducto']['subestado_id']."'"),array('PedidosProducto.pedido_id'=>$listadoPedidos[$lista][0]['PedidosProducto']['pedido_id']));
+						}
+				}
+
+			/*if ($flag2==1){
+
+					$this->Session->setFlash('El Estado de Pedido de Produccion ha sido cambiado correctamente', 'default',array('class'=>'container alert alert-success text-center'));
+					}
+
+				else{
+
+					$this->Session->setFlash('El Estado de Pedido de Produccion no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
+				}
+
+				return $this->redirect(array('action' => 'index'));*/
+
+			
+		/*	
 		} else {
 			$options = array('conditions' => array('PedidosProducto.' . $this->PedidosProducto->primaryKey => $id));
-			$this->request->data = $this->PedidosProducto->find('first', $options);
+			$this->request->data = $this->PedidosProducto->find('first', $options);*/
 		}
-		$pedidos = $this->PedidosProducto->Pedido->find('list');
-		$productos = $this->PedidosProducto->Producto->find('list');
-		$this->set(compact('pedidos', 'productos'));
+
+		$subestados = $this->PedidosProducto->Subestado->find('list');
+		$this->set(compact('subestados'));
 	}
+		
 
 /**
  * delete method
