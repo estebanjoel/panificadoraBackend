@@ -50,7 +50,7 @@
 				<div class="btn-group">
 					<?php echo $this->Html->link(__(''), array('action' => 'view', $pedido['Pedido']['id']), array('class'=>'btn btn-primary glyphicon glyphicon-search', 'title'=>'Ver Detalle de Usuario')); ?></li>
 					<?php echo $this->Html->link(__(''), array('action' => 'edit', $pedido['Pedido']['id']),array('class'=>'btn btn-primary glyphicon glyphicon-pencil', 'title'=>'Editar Usuario')); ?></li>
-					<div class="btn btn-primary glyphicon glyphicon-trash" data-toggle="modal" data-target="#eliminar" title="Eliminar Usuario"></div>
+					<?php echo $this->Form->postLink(__(''), array('action' => 'delete', $pedido['Pedido']['id']), array('class'=>'btn btn-primary glyphicon glyphicon-trash', 'title'=>'Eliminar Pedido de Cliente')); ?></li>
 				 </div>
 			</td>
 		</tr>
@@ -82,7 +82,7 @@
         <h4 class="modal-title" id="myModalLabel">¿Estas seguro que deseas eliminar el registro seleccionado?</h4>
       </div>
       <div class="modal-footer center-block">
-		<?php echo $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $pedido['Pedido']['id']), array('class'=>'btn btn-danger', )); ?></li>
+		
         <button type="button" class="btn btn-success" data-dismiss="modal">Cancelar</button>
       </div>
     </div>

@@ -3,7 +3,7 @@
 	<?php echo $this->Form->create('Formula'); ?>
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<h3 class="panel-title"><?php echo ('Agregue la Cantidad de cada Insumo'); ?></h3>
+			<h3 class="panel-title"><?php echo ('modifique la Cantidad de cada Insumo'); ?></h3>
   		</div>
   	<div class="panel-body">
 		<form class="form-horizontal">
