@@ -40,16 +40,15 @@
 						<tr>
 							<th><?php echo __('Nombre'); ?></th>
 							<th><?php echo __('Detalle'); ?></th>
-							<th class="actions"><?php echo __('Actions'); ?></th>
+							<th><?php echo __('Cantidad'); ?></th>
+
 						</tr>
 						<?php foreach ($pedido['Producto'] as $producto): ?>
 							<tr>
 
 								<td><?php echo $producto['nombre']; ?></td>
 								<td><?php echo $producto['detalle']; ?></td>
-								<td class="actions">
-									<?php echo $this->Html->link(__('View'), array('controller' => 'productos', 'action' => 'view', $producto['id'])); ?>
-								</td>
+								<td><?php echo $producto['PedidosProducto']['cantidad']; ?></td>
 							</tr>
 					<?php endforeach; ?>
 			</table>
