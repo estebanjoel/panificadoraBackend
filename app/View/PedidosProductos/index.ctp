@@ -19,7 +19,7 @@
 	<tr>
 		<td><?php echo h($pedidosProducto['PedidosProducto']['id']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($pedidosProducto['productos']['nombre'], array('controller' => 'productos', 'action' => 'view'),$pedidosProducto['PedidosProducto']['producto_id']); ?>
+			<?php echo $this->Html->link($pedidosProducto['productos']['nombre'], array('controller' => 'productos', 'action' => 'view',$pedidosProducto['PedidosProducto']['producto_id'])); ?>
 		</td>
 		<td><?php echo h($pedidosProducto[0]['total']); ?>&nbsp;</td>
 		<td class="actions">

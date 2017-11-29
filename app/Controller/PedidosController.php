@@ -28,7 +28,7 @@ class PedidosController extends AppController {
  */
 	public function index() {
 		$this->Pedido->recursive = 0;
-		$$this->paginate['Pedido']['limit']=5;
+		$this->paginate['Pedido']['limit']=5;
 		$this->paginate['Pedido']['order']=array('Pedido.id'=>'asc');
 		$this->set('pedidos', $this->paginate());
 	}
@@ -56,6 +56,7 @@ class PedidosController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Pedido->create();
+			debug($this->request->data);
 			if ($this->Pedido->save($this->request->data)) {
 				$this->Session->setFlash(__('The pedido has been saved.'));
 				return $this->redirect(array('action' => 'index'));

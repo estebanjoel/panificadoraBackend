@@ -28,14 +28,12 @@
 				<?php if (!empty($formula['Producto'])): ?>
 				<div class="table-responsive">
 					<table class="table table-bordered">
-					<tr>
-						<th><?php echo __('Id'); ?></th>				
+					<tr>			
 						<th><?php echo __('Nombre'); ?></th>
 						<th><?php echo __('Detalle'); ?></th>
 					</tr>
 					<?php foreach ($formula['Producto'] as $producto): ?>
 						<tr>
-							<td><?php echo $producto['id']; ?></td>
 							<td><?php echo $producto['nombre']; ?></td>
 							<td><?php echo $producto['detalle']; ?></td>
 						</tr>
@@ -55,15 +53,13 @@
 				<div class="table-responsive">
 					<table class="table table-bordered">
 					<tr>
-						<th><?php echo __('Id'); ?></th>
 						<th><?php echo __('Nombre'); ?></th>
-						<th><?php echo __('Stock'); ?></th>
+						<th><?php echo __('Cantidad'); ?></th>
 					</tr>
 					<?php foreach ($formula['Insumo'] as $insumo): ?>
 						<tr>
-							<td><?php echo $insumo['id']; ?></td>
 							<td><?php echo $insumo['nombre']; ?></td>
-							<td><?php echo $insumo['stock']; ?></td>
+							<td><?php echo $insumo['FormulasInsumo']['cantidad']; ?></td>
 						</tr>
 					<?php endforeach; ?>
 					</table>

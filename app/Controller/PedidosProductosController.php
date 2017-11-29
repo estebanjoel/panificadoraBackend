@@ -283,23 +283,21 @@ class PedidosProductosController extends AppController {
 						}
 				}
 
-			/*if ($flag2==1){
+		if ($flag2==1){
 
-					$this->Session->setFlash('El Estado de Pedido de Produccion ha sido cambiado correctamente', 'default',array('class'=>'container alert alert-success text-center'));
-					}
+			$this->Session->setFlash('El Estado de Pedido de Produccion ha sido cambiado correctamente', 'default',array('class'=>'container alert alert-success text-center'));
+		}
 
-				else{
+		else{
 
-					$this->Session->setFlash('El Estado de Pedido de Produccion no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
-				}
+			$this->Session->setFlash('El Estado de Pedido de Produccion no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
+		}
 
-				return $this->redirect(array('action' => 'index'));*/
+		return $this->redirect(array('action' => 'index'));		
 
 			
-		/*	
-		} else {
-			$options = array('conditions' => array('PedidosProducto.' . $this->PedidosProducto->primaryKey => $id));
-			$this->request->data = $this->PedidosProducto->find('first', $options);*/
+		
+		
 		}
 
 		$subestados = $this->PedidosProducto->Subestado->find('list');

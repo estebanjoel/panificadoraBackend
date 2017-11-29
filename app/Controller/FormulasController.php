@@ -59,10 +59,10 @@ class FormulasController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Formula->create();
 			if ($this->Formula->save($this->request->data)) {
-				$this->Session->setFlash('La Formula ha sido creada correctamente', 'default',array('class'=>'container alert alert-success text-center'));
-				return $this->redirect(array('action' => 'index'));
+				//$this->Session->setFlash('La Formula ha sido creada correctamente', 'default',array('class'=>'container alert alert-success text-center'));
+				return $this->redirect(array('action' => 'add_cantidad'));
 			} else {
-				$this->Session->setFlash('La Formula no pudo crearse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
+				//$this->Session->setFlash('La Formula no pudo crearse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
 			}
 		}
 		$estados = $this->Formula->Estado->find('list');
@@ -84,11 +84,9 @@ class FormulasController extends AppController {
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Formula->save($this->request->data)) {
-				$this->Session->setFlash('La Formula ha sido modificada correctamente', 'default',array('class'=>'container alert alert-success text-center'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash('La Formula no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
-			}
+				return $this->redirect(array('action' => 'edit_cantidad',$this->Formula->id));
+			} 
+			
 		} else {
 			$options = array('conditions' => array('Formula.' . $this->Formula->primaryKey => $id));
 			$this->request->data = $this->Formula->find('first', $options);
@@ -116,13 +114,75 @@ class FormulasController extends AppController {
 		$this->request->allowMethod('post', 'delete');
    		if ($this->Formula->saveField('estado_id', 2)){
 
-   			$this->Session->setFlash('La Formula ha sido eliminado correctamente', 'default',array('class'=>'container alert alert-success text-center'));
+   			$this->Session->setFlash('La Formula ha sido eliminada correctamente', 'default',array('class'=>'container alert alert-success text-center'));
 		} 
 
 		else {
 			$this->Session->setFlash('La Formula no pudo eliminarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
 		}
 		return $this->redirect(array('action' => 'index'));
+
+   	}
+
+   	public function add_cantidad(){
+
+   		$formula=$this->Formula->find('first',array('order' => array('Formula.id' => 'DESC')));
+   		$insumos=$this->Formula->FormulasInsumo->find('all',array('conditions'=>array('FormulasInsumo.formula_id'=>$formula['Formula']['id'])));
+
+   		$cantidades=$this->request->data;
+   		$i=0;
+   		foreach ($cantidades['datos'] as $cantidad){
+
+   			$this->Formula->FormulasInsumo->updateAll(array('FormulasInsumo.cantidad'=>"'".$cantidad."'"), array('FormulasInsumo.insumo_id'=>$insumos[$i]['FormulasInsumo']['insumo_id'],'FormulasInsumo.formula_id'=>$formula['Formula']['id'],'FormulasInsumo.id'=>$insumos[$i]['FormulasInsumo']['id']));
+   			$i++;
+
+   		}
+   		
+   		if($i!=0){
+
+   			$this->Session->setFlash('La Formula ha sido creada correctamente', 'default',array('class'=>'container alert alert-success text-center'));
+   			return $this->redirect(array('action' => 'index'));
+   		}
+   		else{
+   			$this->Session->setFlash('La Formula no pudo crearse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
+   		}
+
+   		$this->set('insumos',$insumos);
+   		$this->set('formula',$formula);
+
+   	}
+
+   	public function edit_cantidad($id=null){
+
+   		$this->Formula->id = $id;
+		if (!$this->Formula->exists()) {
+			throw new NotFoundException(__('Invalid Formula'));
+		}
+		else{
+	   		$formula=$this->Formula->find('first',array('conditions'=>(array('Formula.id'=>$id))));
+	   		$insumos=$this->Formula->FormulasInsumo->find('all',array('conditions'=>array('FormulasInsumo.formula_id'=>$formula['Formula']['id'])));
+
+	   		$cantidades=$this->request->data;
+	   		$i=0;
+	   		foreach ($cantidades['datos'] as $cantidad){
+
+	   			$this->Formula->FormulasInsumo->updateAll(array('FormulasInsumo.cantidad'=>"'".$cantidad."'"), array('FormulasInsumo.insumo_id'=>$insumos[$i]['FormulasInsumo']['insumo_id'],'FormulasInsumo.formula_id'=>$formula['Formula']['id'],'FormulasInsumo.id'=>$insumos[$i]['FormulasInsumo']['id']));
+	   			$i++;
+
+	   		}
+	   		
+	   		if($i!=0){
+
+	   			$this->Session->setFlash('La Formula ha sido modificada correctamente', 'default',array('class'=>'container alert alert-success text-center'));
+	   			return $this->redirect(array('action' => 'index'));
+	   		}
+	   		else{
+	   			$this->Session->setFlash('La Formula no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
+	   		}
+			
+			$this->set('insumos',$insumos);
+	   		$this->set('formula',$formula);
+	   	}
 
    	}
 
@@ -191,7 +251,7 @@ class FormulasController extends AppController {
 
 	public function isAuthorized($user)
         { if(isset($user['Role']) && $user['Role']['tipo']==='Encargado de Produccion')
-            {if(in_array($this->action, array('index','add','edit','view','delete','search')))
+            {if(in_array($this->action, array('index','add','edit','view','delete','search','add_cantidad')))
             	{return true;}
             else
             	{if($this->Auth->user('id'))

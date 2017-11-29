@@ -31,7 +31,7 @@
 		<thead>
 		<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('subestado_id'); ?></th>
+			<th><?php echo $this->Paginator->sort('Estado'); ?></th>
 			<th><?php echo $this->Paginator->sort('cliente_id'); ?></th>
 			<th class="actions"><?php echo __('Acciones'); ?></th>
 		</tr>

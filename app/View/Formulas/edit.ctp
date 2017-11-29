@@ -14,7 +14,9 @@
 					echo $this->Form->input('descripcion',array('class'=>'form-control','type'=>'textarea','label'=>'Ingredientes')).'<br />';?>
 				<div class="form-group">
 					<label>Insumos:</label>
-					<?php echo $this->Form->input('Insumo',array('label'=>false,'class'=>'checkbox-inline','multiple'=>'checkbox')); ?>
+					<ul class="list-group">
+					<?php echo $this->Form->input('Insumo',array('type'=>'select','label'=>false,'class'=>' list-group-item','multiple'=>'checkbox')); ?>
+					</ul>
 				</div>
 				
 				<br><div class="center-block"><?php echo $this->Form->end(__('Enviar')); ?></div>

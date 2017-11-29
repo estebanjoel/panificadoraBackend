@@ -1,29 +1,28 @@
-<div class="pedidos form">
-<?php echo $this->Form->create('Pedido'); ?>
-	<fieldset>
-		<legend><?php echo __('Add Pedido'); ?></legend>
+<div class="container">
+	<?php echo $this->element('navtabs-pedido-alta'); ?>
+	<?php echo $this->Form->create('Pedido'); ?>
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title"><?php echo ('Dar de Alta un Pedido de Cliente'); ?></h3>
+  		</div>
+	<div class="panel-body">
+		<form class="form-horizontal">
 	<?php
-		echo $this->Form->input('estado_id');
-		echo $this->Form->input('subestado_id');
-		echo $this->Form->input('cliente_id');
-		echo $this->Form->input('Producto');
-		echo $this->Form->input('fecha');
+		echo $this->Form->input('estado_id',array('class'=>'form-control hidden', 'label'=>false,'value'=>1));
+		echo $this->Form->input('subestado_id',array('class'=>'form-control hidden', 'label'=>false,'value'=>1));
+		echo $this->Form->input('cliente_id',array('class'=>'form-control')).'<br />';?>
+		<div class="form-group">
+					<label>Productos:</label>
+					<ul class="list-group">
+					<?php echo $this->Form->input('Producto',array('type'=>'select','label'=>false,'class'=>' list-group-item','multiple'=>'checkbox')); ?>
+					</ul>
+				</div>
+		<label>Fecha</label>
+		<?php echo $this->Form->text('fecha',array('class'=>'form-control','type'=>'date'));
 	?>
-	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-
-		<li><?php echo $this->Html->link(__('List Pedidos'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Estados'), array('controller' => 'estados', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Estado'), array('controller' => 'estados', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Subestados'), array('controller' => 'subestados', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Subestado'), array('controller' => 'subestados', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Clientes'), array('controller' => 'clientes', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Cliente'), array('controller' => 'clientes', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Productos'), array('controller' => 'productos', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Producto'), array('controller' => 'productos', 'action' => 'add')); ?> </li>
-	</ul>
+			<br><div class="center-block"><?php echo $this->Form->end(('Enviar')); ?></div>
+		</form>
+	</div>
+	</div>
 </div>

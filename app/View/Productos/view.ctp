@@ -28,16 +28,16 @@
 				<div class="panel-heading"><h3 class="panel-title"><?php echo __('Pedidos de Cliente'); ?></h3>
 				</div>
 				<div class="panel-body">
-					<?php if (!empty($producto['Cpedido'])): ?>
+					<?php if (!empty($producto['Pedido'])): ?>
 					<div class="table-responsive">
 						<table class="table table-bordered">
 						<tr>
-							<th><?php echo __('Id'); ?></th>
+							<th><?php echo __('Cliente'); ?></th>
 							<th><?php echo __('Fecha'); ?></th>
 						</tr>
 						<?php foreach ($producto['Pedido'] as $pedido): ?>
 							<tr>
-								<td><?php echo $pedido['id']; ?></td>
+								<td><?php echo $pedido['cliente_id']; ?></td>
 								<td><?php echo $pedido['fecha']; ?></td>
 							</tr>
 						<?php endforeach; ?>

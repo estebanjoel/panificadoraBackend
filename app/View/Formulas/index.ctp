@@ -43,7 +43,6 @@
 		<thead>
 		<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('estado_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('nombre'); ?></th>
 			<th class="actions"><?php echo __('Acciones'); ?></th>
 		</tr>
@@ -53,21 +52,13 @@
 			<?php if($formula['Estado']['id']==1): ?>
 		<tr>
 			<td><?php echo h($formula['Formula']['id']); ?>&nbsp;</td>
-			<td>
-				<?php echo $this->Html->link($formula['Estado']['nombre'], array('controller' => 'estados', 'action' => 'view', $formula['Estado']['id'])); ?>
-			</td>
 			<td><?php echo h($formula['Formula']['nombre']); ?>&nbsp;</td>
 			<td class="actions">
 				<div class="btn-group">
-			  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			     <span class="glyphicon glyphicon-edit"></span>
-			  </button>
-			  <ul class="dropdown-menu dropdown-menu-right">
-			    <li><?php echo $this->Html->link(__('Ver'), array('action' => 'view', $formula['Formula']['id'])); ?></li>
-			    <li><?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $formula['Formula']['id'])); ?></li>
-			    <li><?php echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $formula['Formula']['id']), array(), __('Estas seguro que queres borrar la formula # %s?', $formula['Formula']['id'])); ?></li>
-			    
-			  </ul>
+						<?php echo $this->Html->link(__(''), array('action' => 'view', $formula['Formula']['id']), array('class'=>'btn btn-primary glyphicon glyphicon-search', 'title'=>'Ver Detalle de Formula')); ?>
+						<?php echo $this->Html->link(__(''), array('action' => 'edit', $formula['Formula']['id']),array('class'=>'btn btn-primary glyphicon glyphicon-pencil', 'title'=>'Editar Formula')); ?>
+						<?php echo $this->Form->postLink(__(''), array('action' => 'delete', $formula['Formula']['id']), array('class'=>'btn btn-primary glyphicon glyphicon-trash', 'title'=>'Eliminar Formula')); ?></li>
+				</div>
 			</td>
 		</tr>
 	<?php endif; ?>
