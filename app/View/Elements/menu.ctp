@@ -56,6 +56,10 @@
               <li><?php   echo $this->Html->link('Formulas',array('controller'=>'Formulas','action'=>'index'));?></li>
       				 <?php  endif ?>
 
+               <?php  if(($current_user['Role']['tipo'])=='Super Administrador'or ($current_user['Role']['tipo'])=='Gerente de Produccion'): ?>
+              <li><?php   echo $this->Html->link('Cambio de Formula',array('controller'=>'Formulas','action'=>'aprobar_formula'));?></li>
+               <?php  endif ?>
+
               </ul>
       			<ul class="nav navbar-nav navbar-right">
               <li>

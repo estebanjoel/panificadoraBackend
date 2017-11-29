@@ -71,6 +71,16 @@ class Formula extends AppModel {
 		)
 	);
 
+	public $hasOne = array(
+		'Borradore' => array(
+			'className' => 'Borradore',
+			'foreignKey' => '',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
+	);
+
 /**
  * hasMany associations
  *

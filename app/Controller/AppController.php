@@ -32,7 +32,12 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
-	 public $components = array(
+	 
+        public $formula_vieja;
+        public $cantidad_vieja;
+        public $pedido_cambio_formula;
+        public $pedido_cambio_cantidad;
+     public $components = array(
         'Session',
         'Auth' => array(
             'loginRedirect' => array(
@@ -65,4 +70,6 @@ class AppController extends Controller {
             { return false;}
 
     }
+
+    
 }

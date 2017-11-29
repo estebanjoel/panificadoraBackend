@@ -23,6 +23,8 @@ class FormulasController extends AppController {
 		'order'=>array(
 			'Formula.id'=>'asc'));
 
+
+
 /**
  * index method
  *
@@ -79,22 +81,33 @@ class FormulasController extends AppController {
  * @param string $id
  * @return void
  */
+
+
+
 	public function edit($id = null) {
 		if (!$this->Formula->exists($id)) {
 			throw new NotFoundException(__('Invalid formula'));
 		}
 		if ($this->request->is(array('post', 'put'))) {
+
+			$this->Session->write("pedido_cambio_formula",$this->request->data);
+			$this->Session->write("formula_vieja",$this->Formula->find('all',array('conditions'=>array('Formula.id'=>$id))));
+			$options = array('conditions' => array('Formula.' . $this->Formula->primaryKey => $id));
+			$this->request->data = $this->Formula->find('first', $options);
+
 			if ($this->Formula->save($this->request->data)) {
 				
-				//$Borradore->prueba();
-
-				//$this->Borradore->save($this->request->data);
+				
 				return $this->redirect(array('action' => 'edit_cantidad',$this->Formula->id));
+
+				
 			} 
 			
 		} else {
+
 			$options = array('conditions' => array('Formula.' . $this->Formula->primaryKey => $id));
 			$this->request->data = $this->Formula->find('first', $options);
+			
 		}
 		$estados = $this->Formula->Estado->find('list');
 		$productos = $this->Formula->Producto->find('list');
@@ -170,22 +183,29 @@ class FormulasController extends AppController {
 	   		$insumos=$this->Formula->FormulasInsumo->find('all',array('conditions'=>array('FormulasInsumo.formula_id'=>$formula['Formula']['id'])));
 
 	   		$cantidades=$this->request->data;
+	   		$cantidad_vieja=[];
+			foreach ($insumos as $insumo){
+
+				
+				array_push($cantidad_vieja,$insumo['FormulasInsumo']['cantidad']);
+			}
+
+			$this->Session->write("pedido_cambio_cantidad",$this->request->data);
+	   		$this->request->data=$cantidad_vieja;
+   			$this->Session->write("cantidad_vieja",$cantidad_vieja);
+
 	   		$i=0;
 	   		foreach ($cantidades['datos'] as $cantidad){
-
-	   			$this->Formula->FormulasInsumo->updateAll(array('FormulasInsumo.cantidad'=>"'".$cantidad."'"), array('FormulasInsumo.insumo_id'=>$insumos[$i]['FormulasInsumo']['insumo_id'],'FormulasInsumo.formula_id'=>$formula['Formula']['id'],'FormulasInsumo.id'=>$insumos[$i]['FormulasInsumo']['id']));
 	   			$i++;
-
 	   		}
-	   		
 	   		if($i!=0){
 
-	   			$this->Session->setFlash('La Formula ha sido modificada correctamente', 'default',array('class'=>'container alert alert-success text-center'));
-	   			return $this->redirect(array('action' => 'index'));
-	   		}
-	   		else{
-	   			$this->Session->setFlash('La Formula no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
-	   		}
+		   	$this->Session->setFlash('La Modificacion de la Formula esta pendiente a ser aprobada', 'default',array('class'=>'container alert alert-info text-center'));
+		   			return $this->redirect(array('action' => 'index'));
+		   	}
+		   	else{
+		   			$this->Session->setFlash('La Formula no pudo modificarse, intentelo nuevamente', 'default',array('class'=>'container alert alert-danger text-center'));
+		   	} 	   		
 			
 			$this->set('insumos',$insumos);
 	   		$this->set('formula',$formula);
@@ -256,9 +276,86 @@ class FormulasController extends AppController {
 
 	}
 
+	public function aprobar_formula($confirmacion=null){
+
+		$formula_vieja=$this->Session->read("formula_vieja");
+		$cantidad_vieja=$this->Session->read("cantidad_vieja");
+		$formula_nueva=$this->Session->read("pedido_cambio_formula");
+		$cantidad_nueva=$this->Session->read("pedido_cambio_cantidad");
+		$this->set('formula_nueva',$formula_nueva);
+		$this->set('cantidad_nueva',$cantidad_nueva);
+
+		if ($formula_nueva!=""){
+			$insumos=$this->Formula->FormulasInsumo->find('all',array('conditions'=>array('FormulasInsumo.formula_id'=>$formula_nueva['Formula']['id'])));
+			}
+
+		if($confirmacion==null){
+
+			if ($cantidad_nueva!=""&&$formula_nueva!=""){
+				$this->Formula->recursive = 0;
+				$this->paginate['Formula']['limit']=5;
+				$this->paginate['Formula']['conditions']=array('Formula.id'=>$formula_nueva['Formula']['id']);
+
+				$this->set('formula_vieja',$formula_vieja);
+				$this->set('cantidad_vieja',$cantidad_vieja);
+				
+				$i=0;
+				foreach ($insumos as $insumo){
+
+
+					$insumo['FormulasInsumo']['cantidad']=$cantidad_nueva['datos'][$i];
+
+				}
+
+				$this->set('insumos',$insumos);
+				$this->set('formula',$this->paginate());
+				$this->paginate['Formula']['nombre']=$formula_nueva['Formula']['nombre'];
+			}
+
+		}
+
+		if($confirmacion==1){
+
+			
+			$this->Formula->save($formula_nueva);
+			$i=0;
+			if($cantidad_nueva!=""){
+	   		foreach ($cantidad_nueva['datos'] as $cantidad){
+
+	   			$this->Formula->FormulasInsumo->updateAll(array('FormulasInsumo.cantidad'=>"'".$cantidad."'"), array('FormulasInsumo.insumo_id'=>$insumos[$i]['FormulasInsumo']['insumo_id'],'FormulasInsumo.formula_id'=>$formula_nueva['Formula']['id'],'FormulasInsumo.id'=>$insumos[$i]['FormulasInsumo']['id']));
+	   			$i++;
+	   		}}
+	   		if($i!=0){
+				$this->Session->SetFlash("La Modificacion ha sido aprobada",'default',array('class'=>'container alert alert-success text-center'));
+				$this->Session->write('pedido_cambio_formula','');
+				$this->Session->write('pedido_cambio_cantidad','');
+				return $this->redirect(array('controller' => 'formulas', 'action' => 'aprobar_formula'));
+				$confirmacion=null;
+				}
+		
+		}
+
+		if($confirmacion==2){
+
+			$this->Session->SetFlash("La Modificacion ha sido anulada",'default',array('class'=>'container alert alert-warning text-center'));
+			$this->Session->write('pedido_cambio_formula','');
+			$this->Session->write('pedido_cambio_cantidad','');
+			return $this->redirect(array('controller' => 'formulas', 'action' => 'aprobar_formula'));
+		}
+	}
+
+
+		
+
+		
+
+
+
+
+
 	public function isAuthorized($user)
         { if(isset($user['Role']) && $user['Role']['tipo']==='Encargado de Produccion')
-            {if(in_array($this->action, array('index','add','edit','view','delete','search','add_cantidad')))
+            {if(in_array($this->action, array('index','add','edit','view','delete','search','add_cantidad','edit_cantidad')))
             	{return true;}
             else
             	{if($this->Auth->user('id'))
@@ -268,9 +365,24 @@ class FormulasController extends AppController {
 
             		}
 
-        }
+        		}
 
-        }
+        		}
+
+        if(isset($user['Role']) && $user['Role']['tipo']==='Gerente de Produccion')
+            {if(in_array($this->action, array('aprobar_formula')))
+            	{return true;}
+            else
+            	{if($this->Auth->user('id'))
+            		{$this->Session->setFlash('No tiene acceso','default', array('class'=>'alert alert-danger'));
+            		$this->redirect($this->Auth->redirect());
+
+
+            		}
+
+        		}
+
+        		}
         return parent::isAuthorized($user);
            
     }

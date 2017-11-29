@@ -14,13 +14,16 @@
 <div id="contenedor-pedidos">
 
 <div class="container">
+ <?php  if(($current_user['Role']['tipo'])=='Super Administrador' or ($current_user['Role']['tipo'])=='Empleado de Ventas'): ?>
 	<div class="row">
+
 			<div class="col-md-7 col-xs-12">
 				<?php echo $this->element('navtabs-pedido-consulta'); ?>
 			</div>	
 
 			</div>
 			<br >
+<?php endif; ?>
 
 	<div class="panel panel-primary">
 		<div class="panel-heading">
@@ -33,7 +36,9 @@
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('Estado'); ?></th>
 			<th><?php echo $this->Paginator->sort('cliente_id'); ?></th>
+			<?php  if(($current_user['Role']['tipo'])=='Super Administrador' or ($current_user['Role']['tipo'])=='Empleado de Ventas'): ?>
 			<th class="actions"><?php echo __('Acciones'); ?></th>
+		<?php endif; ?>
 		</tr>
 		</thead>
 		<tbody>
@@ -46,6 +51,7 @@
 			<td>
 				<?php echo $this->Html->link($pedido['Cliente']['numero_cliente'], array('controller' => 'clientes', 'action' => 'view', $pedido['Cliente']['id'])); ?>
 			</td>
+			<?php  if(($current_user['Role']['tipo'])=='Super Administrador' or ($current_user['Role']['tipo'])=='Empleado de Ventas'): ?>
 			<td class="actions">
 				<div class="btn-group">
 					<?php echo $this->Html->link(__(''), array('action' => 'view', $pedido['Pedido']['id']), array('class'=>'btn btn-primary glyphicon glyphicon-search', 'title'=>'Ver Detalle de Usuario')); ?></li>
@@ -53,6 +59,7 @@
 					<?php echo $this->Form->postLink(__(''), array('action' => 'delete', $pedido['Pedido']['id']), array('class'=>'btn btn-primary glyphicon glyphicon-trash', 'title'=>'Eliminar Pedido de Cliente')); ?></li>
 				 </div>
 			</td>
+		<?php endif; ?>
 		</tr>
 	<?php endforeach; ?>
 		</tbody>
